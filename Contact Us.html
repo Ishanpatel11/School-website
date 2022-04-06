@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Responsive Contact Us page</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/e7eb6e2773.js" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300;1,400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<section class="contact">
+<div class="content">
+<h1>Contact Us</h1>
+<h3> Let's Start the Conversation</h3>
+</div>
+
+<div class="container">
+<div class="contactForm">
+
+<form>
+<h2> Send Message</h2>
+
+<div class="inputBox">
+<input type="text" id="name" name="" required="required">
+<label for="name"><i class="fa-solid fa-user"></i> Full Name</label>
+<small class="error"></small>
+</div>
+
+<div class="inputBox">
+<input type="email" id="email" name="" required="required">
+<label for="email"><i class="fa-solid fa-envelope"></i> Email</label>
+<small class="error"></small>
+</div>
+
+<div class="inputBox">
+<input type="number" id="number" name="" size="10" required="required">
+<label for="number"><i class="fa-solid fa-address-book"></i> Contact Number</label>
+<small class="error"></small>
+</div>
+
+<div class="inputBox">
+<textarea id="message" required></textarea>
+<label for="message"><i class="fa-solid fa-message"></i> Type your Message</label>
+<small class="error"></small>
+</div>
+
+<div class="inputBox">
+<input type="submit" name="" value="Send">
+<p id="success"></p></div>
+
+</form>
+</div>
+</div>
+</body>
+</html>
